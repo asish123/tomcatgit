@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project name="codeforce" default="jar">
+
+<target name="info">
+<echo>info is excuted</echo>
+</target>
+
+<target name="clean" depends="info">
+<echo>clean is excuted</echo>
+</target>
+
+<target name="compile" depends="clean">
+<echo>compile is excuted</echo>
+</target>
+
+
+<target name="run" depends="compile">
+<echo>run is excuted</echo>
+</target>
+
+<target name="jar" depends="run">
+<echo>jar is excuted</echo>
+</target>
+
+</project>
